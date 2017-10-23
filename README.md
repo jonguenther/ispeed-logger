@@ -12,7 +12,7 @@ Following components are needed to run the wifilogger:
 1. Go to [Google Console](https://console.cloud.google.com/) and create a new project
 1. Search for `Google Drive API` and click on the suggested Link
 1. Enable the API
-1. Click on `create credentials` and configure the API as followed: ![picture](https://imgur.com/PGKwmou). After creating your credentials, you'll be prompted to download a JSON file containing the credentials.
+1. Click on `create credentials` and configure the API as followed: ![picture](https://i.imgur.com/PGKwmou.png). After creating your credentials, you'll be prompted to download a JSON file containing the credentials.
 1. Log into your Linux device and create a new folder where you want to run wifilogger in and do `git clone https://github.com/jonguenther/wifilogger.git [YOURFOLDERNAME]`
 1. go into your folder and run `npm install`
 1. Copy the downloaded JSON file into the folder and rename it to `credentials.js`.
