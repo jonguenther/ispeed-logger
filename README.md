@@ -20,6 +20,7 @@ Following components are needed to run the ispeed-logger:
 1. Enable the Google Drive API
 1. Click on `create credentials` and configure the API as followed: <br>![picture](https://i.imgur.com/PGKwmou.png) <br>After creating your credentials, you'll be prompted to download a JSON file containing the credentials.
 1. Log into your Linux device and create a new folder where you want to run wifilogger in and do `git clone https://github.com/jonguenther/wifilogger.git [YOURFOLDERNAME]`
+1. Copy your credentials onto your Linux Device
 1. go into your folder and run `setup.sh` and follow the instructions
 
 ## Tips
