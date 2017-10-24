@@ -1,5 +1,6 @@
 var date = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '');
 var gid = require("./gid");
+gid = gid();
 console.log("Starting request @",date);
 const speedTest = require('speedtest-net');
 const test = speedTest({maxTime: 5000});
