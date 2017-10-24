@@ -1,4 +1,5 @@
 var gid = require("./gid");
+gid = gid();
 var GoogleSpreadsheet = require('google-spreadsheet');
 var creds = require('./client_secret.json');
 var doc = new GoogleSpreadsheet(gid);
