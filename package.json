@@ -1,0 +1,32 @@
+{
+  "name": "ispeed-logger",
+  "version": "0.0.1",
+  "description": "Log your Internetspeed into Google Sheets using the speedtest.net API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonguenther/wifilogger.git"
+  },
+  "keywords": [
+    "speedtest",
+    "internet",
+    "speed",
+    "logging",
+    "Google",
+    "Sheets"
+  ],
+  "author": "Jonathan Günther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonguenther/wifilogger/issues"
+  },
+  "homepage": "https://github.com/jonguenther/wifilogger#readme",
+  "dependencies": {
+    "google-spreadsheet": "^2.0.4",
+    "speedtest-net": "^1.3.1"
+  }
+}
